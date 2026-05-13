@@ -1,0 +1,38 @@
+<?php
+
+$generiPreferitiIniziali = array(
+    array("id_utente" => 1, "id_genere" => 1),
+    array("id_utente" => 1, "id_genere" => 2),
+    array("id_utente" => 1, "id_genere" => 5),
+    array("id_utente" => 2, "id_genere" => 2),
+    array("id_utente" => 2, "id_genere" => 3),
+    array("id_utente" => 2, "id_genere" => 40),
+    array("id_utente" => 4, "id_genere" => 1),
+    array("id_utente" => 4, "id_genere" => 4),
+    array("id_utente" => 4, "id_genere" => 5),
+    array("id_utente" => 5, "id_genere" => 9),
+    array("id_utente" => 5, "id_genere" => 14),
+    array("id_utente" => 5, "id_genere" => 21),
+    array("id_utente" => 6, "id_genere" => 10),
+    array("id_utente" => 6, "id_genere" => 17),
+    array("id_utente" => 6, "id_genere" => 44),
+    array("id_utente" => 7, "id_genere" => 5),
+    array("id_utente" => 7, "id_genere" => 8),
+    array("id_utente" => 7, "id_genere" => 17),
+    array("id_utente" => 8, "id_genere" => 10),
+    array("id_utente" => 8, "id_genere" => 14),
+    array("id_utente" => 8, "id_genere" => 23),
+    array("id_utente" => 9, "id_genere" => 4),
+    array("id_utente" => 9, "id_genere" => 16),
+    array("id_utente" => 9, "id_genere" => 29),
+    array("id_utente" => 10, "id_genere" => 10),
+    array("id_utente" => 10, "id_genere" => 22),
+    array("id_utente" => 10, "id_genere" => 45),
+    array("id_utente" => 11, "id_genere" => 10),
+    array("id_utente" => 11, "id_genere" => 13),
+    array("id_utente" => 11, "id_genere" => 35),
+    array("id_utente" => 12, "id_genere" => 5),
+    array("id_utente" => 12, "id_genere" => 7),
+    array("id_utente" => 12, "id_genere" => 8)
+);
+?>

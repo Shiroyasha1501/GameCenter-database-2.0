@@ -1,0 +1,560 @@
+body {
+    background: radial-gradient(circle at 20% 12%, rgba(196, 181, 253, 0.42) 0, transparent 32%), radial-gradient(circle at 80% 55%, rgba(233, 213, 255, 0.46) 0, transparent 36%), radial-gradient(circle at 45% 95%, rgba(216, 180, 254, 0.36) 0, transparent 38%), #fbf7ff;
+    color: #2e1065;
+}
+
+#header {
+    background: linear-gradient(135deg, #ffffff 0%, #f3e8ff 58%, #ede9fe 100%);
+    border-color: #c084fc;
+    box-shadow: 0 0 24px rgba(168, 85, 247, 0.18);
+}
+
+#header h1 {
+    color: #3b0764;
+    text-shadow: none;
+}
+
+#header h2,
+#header p,
+.sottotitolo {
+    color: #6b21a8;
+}
+
+#sidebar {
+    background-color: rgba(255, 255, 255, 0.92);
+    border-color: #c084fc;
+    box-shadow: 0 0 18px rgba(168, 85, 247, 0.14);
+}
+
+#sidebar h2 {
+    color: #581c87;
+}
+
+#contenuto {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: #c084fc;
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.14);
+}
+
+#footer {
+    background:
+        linear-gradient(135deg, #ffffff 0%, #f3e8ff 58%, #ede9fe 100%);
+    border-color: #c084fc;
+    color: #6b21a8;
+    box-shadow: 0 0 24px rgba(168, 85, 247, 0.18);
+}
+
+
+h2 {
+    color: #6b21a8;
+}
+
+h3 {
+    color: #7e22ce;
+}
+
+ul.menu a {
+    background-color: #f3e8ff;
+    color: #3b0764;
+    border-color: #c084fc;
+}
+
+ul.menu a:visited {
+    color: #3b0764;
+}
+
+ul.menu a:hover {
+    background-color: #e9d5ff;
+    color: #2e1065;
+    border-color: #9333ea;
+    box-shadow: 0 0 12px rgba(168, 85, 247, 0.22);
+}
+
+ul.menu a.linkAccessoMenu {
+    background-color: #4c1d95;
+    color: #ffffff;
+    border-color: #6b21a8;
+    box-shadow: 0 0 14px rgba(76, 29, 149, 0.24);
+}
+
+ul.menu a.linkAccessoMenu:visited {
+    color: #ffffff;
+}
+
+ul.menu a.linkAccessoMenu:hover {
+    background-color: #6d28d9;
+    color: #ffffff;
+    border-color: #9333ea;
+    box-shadow: 0 0 18px rgba(76, 29, 149, 0.32);
+}
+
+.titoloTendina {
+    background-color: #f3e8ff;
+    color: #3b0764;
+    border-color: #c084fc;
+}
+
+.voceMenuTendina:hover .titoloTendina {
+    background-color: #e9d5ff;
+    color: #2e1065;
+    border-color: #9333ea;
+    box-shadow: 0 0 12px rgba(168, 85, 247, 0.22);
+}
+
+.sottomenu a {
+    background-color: #ffffff;
+    color: #3b0764;
+    border-color: #d8b4fe;
+}
+
+.sottomenu a:visited {
+    color: #3b0764;
+}
+
+.sottomenu a:hover {
+    background-color: #f3e8ff;
+    color: #2e1065;
+    border-color: #9333ea;
+}
+
+.box,
+.pannelloPagina {
+    background-color: rgba(255, 255, 255, 0.92);
+    border-color: #d8b4fe;
+    box-shadow: 0 0 16px rgba(168, 85, 247, 0.13);
+}
+
+.box:hover,
+.card:hover {
+    border-color: #9333ea;
+    box-shadow: 0 0 22px rgba(168, 85, 247, 0.22);
+}
+
+.box h2,
+.pannelloPagina h2 {
+    color: #3b0764;
+}
+
+.box p,
+.pannelloPagina p {
+    color: #3b0764;
+}
+
+.box strong {
+    color: #581c87;
+}
+
+#contenuto > .box:first-child,
+.heroPagina,
+.liberHeroGlossario {
+    background: linear-gradient(135deg, #ffffff 0%, #f3e8ff 58%, #ede9fe 100%);
+    border-color: #c084fc;
+    box-shadow: 0 0 24px rgba(168, 85, 247, 0.18);
+}
+
+#contenuto > .box:first-child h2,
+.heroPagina h2,
+.liberHeroGlossario h2 {
+    color: #3b0764;
+}
+
+#contenuto > .box:first-child p,
+.heroPagina p,
+.liberHeroGlossario p {
+    color: #4c1d95;
+}
+
+.heroPagina .badgePagina,
+.badgePagina {
+    background-color: #4c1d95;
+    color: #ffffff;
+    border: 1px solid #7e22ce;
+    box-shadow: 0 0 10px rgba(76, 29, 149, 0.28);
+}
+
+.card,
+.schedaGioco,
+.schedaProgetto {
+    background-color: #faf5ff;
+    border-color: #d8b4fe;
+    box-shadow: 0 0 14px rgba(168, 85, 247, 0.12);
+}
+
+.card h3,
+.schedaGioco h3,
+.termineSacro,
+.autoreNome,
+.cardGenere h3,
+.cardAzienda h3,
+.cardGiocoCatalogo h3,
+.cardGalleria h3,
+.cardGenerePreferito h3,
+.cardDomandaMinigioco h3,
+.voceCardGlossario .termineSacro {
+    color: #2e1065;
+}
+
+.card p,
+.schedaGioco p,
+.cardGenere p,
+.cardAzienda p,
+.cardGiocoCatalogo p,
+.cardGalleria p,
+.cardGenerePreferito p,
+.cardDomandaMinigioco p {
+    color: #2e1065;
+}
+
+.meta,
+.risultatoRicerca,
+.categoriaDomandaMinigioco,
+.chiusuraSacra,
+.introSacra,
+.formulaSacra {
+    color: #6b21a8;
+}
+
+.tagGenere,
+.tagAzienda,
+.tagGioco,
+.sezioneVoceGlossario,
+.numeroDomandaMinigioco {
+    background-color: #ffffff;
+    border-color: #7e22ce;
+    color: #2e1065;
+}
+
+.boxInterno,
+.opzioneMinigioco {
+    background-color: #ffffff;
+    border-color: #d8b4fe;
+}
+
+.boxInterno strong,
+.boxInterno h4 {
+    color: #7e22ce;
+}
+
+.boxInterno p {
+    color: #4c1d95;
+}
+
+a,
+#contenuto a {
+    color: #7e22ce;
+}
+
+a:visited,
+#contenuto a:visited {
+    color: #6b21a8;
+}
+
+a:hover,
+#contenuto a:hover {
+    color: #be185d;
+}
+
+.bottone,
+#contenuto .bottone,
+.bottoneRicerca,
+.bottoneSalvaGalleria,
+.bottoneInviaMinigioco {
+    background-color: #4c1d95;
+    color: #ffffff;
+    border-color: #6b21a8;
+    box-shadow: 0 8px 18px rgba(76, 29, 149, 0.24);
+}
+
+.bottone:hover,
+#contenuto .bottone:hover,
+.bottoneRicerca:hover,
+.bottoneSalvaGalleria:hover,
+.bottoneInviaMinigioco:hover {
+    background-color: #6d28d9;
+    color: #ffffff;
+}
+
+#contenuto a.bottone,
+#contenuto a.bottone:visited,
+#contenuto a.bottone:hover {
+    color: #ffffff;
+}
+
+.bottoneReset,
+.bottoneOrdine,
+.bottoneNuovoMinigioco {
+    background-color: #f3e8ff;
+    color: #6b21a8;
+    border-color: #c084fc;
+}
+
+.bottoneReset:visited,
+.bottoneOrdine:visited,
+.bottoneNuovoMinigioco:visited {
+    color: #6b21a8;
+}
+
+.bottoneReset:hover,
+.bottoneOrdine:hover,
+.bottoneNuovoMinigioco:hover {
+    background-color: #e9d5ff;
+    color: #3b0764;
+}
+
+.bottoneRimuoviGalleria {
+    background-color: #dc2626;
+    color: #ffffff;
+    border-color: #fecaca;
+}
+
+.bottoneRimuoviGalleria:hover {
+    background-color: #b91c1c;
+    color: #ffffff;
+}
+
+.barraRicerca,
+.campoVotoGalleria,
+.campoRecensioneGalleria,
+.selectGenerePreferito {
+    background-color: #ffffff;
+    color: #2e1065;
+    border-color: #c084fc;
+}
+
+.barraRicerca:focus,
+.campoVotoGalleria:focus,
+.campoRecensioneGalleria:focus,
+.selectGenerePreferito:focus {
+    border-color: #9333ea;
+    box-shadow: 0 0 0 4px rgba(147, 51, 234, 0.13);
+}
+
+.pannelloPagina label,
+.boxValutazioneGalleria label {
+    color: #4c1d95;
+}
+
+.copertina,
+.copertinaCatalogo,
+.fotoAutore,
+.immagineProgetto,
+.logoAziendaCatalogo,
+.logoAziendaHome {
+    background-color: #ffffff;
+    border-color: #c084fc;
+    box-shadow: 0 0 14px rgba(168, 85, 247, 0.18);
+}
+
+.help {
+    color: #7e22ce;
+}
+
+.help .spiegazione {
+    background-color: #ffffff;
+    color: #2e1065;
+    border-color: #9333ea;
+    box-shadow: 0 0 16px rgba(76, 29, 149, 0.18);
+}
+
+.paginaSacra {
+    background-color: #faf5ff;
+    border-color: #c084fc;
+}
+
+.titoloSacrale {
+    color: #7e22ce;
+    border-color: #c084fc;
+}
+
+.boxUtenteMenu {
+    background: radial-gradient(circle at 15% 20%, rgba(196, 181, 253, 0.85) 0, transparent 35%), radial-gradient(circle at 90% 80%, rgba(216, 180, 254, 0.9) 0, transparent 35%), #ffffff;
+    border-color: #c084fc;
+    box-shadow: 0 0 14px rgba(168, 85, 247, 0.22);
+}
+
+.titoloUtenteMenu {
+    color: #6b21a8;
+}
+
+.nomeUtenteMenu {
+    color: #3b0764;
+}
+
+.linkAreaMenu {
+    background-color: #7e22ce;
+    color: #ffffff;
+    border-color: #c084fc;
+}
+
+.linkAreaMenu:visited {
+    color: #ffffff;
+}
+
+.linkAreaMenu:hover {
+    background-color: #9333ea;
+    color: #ffffff;
+}
+
+.linkLogoutMenu {
+    background-color: #fff1f2;
+    color: #7f1d1d;
+    border-color: #fecaca;
+}
+
+.linkLogoutMenu:visited {
+    color: #7f1d1d;
+}
+
+.linkLogoutMenu:hover {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
+
+.boxSpecialeMenu {
+    background: radial-gradient(circle at 20% 20%, rgba(187, 247, 208, 0.9) 0, transparent 35%), radial-gradient(circle at 90% 80%, rgba(220, 252, 231, 0.9) 0, transparent 35%), #ffffff;
+    border-color: #22c55e;
+}
+
+.linkAreaSpecialeMenu {
+    background-color: #15803d;
+    border-color: #86efac;
+}
+
+.opzioneCorrettaMinigioco {
+    background-color: #dcfce7;
+    border-color: #22c55e;
+    color: #14532d;
+}
+
+.opzioneErrataMinigioco {
+    background-color: #fee2e2;
+    border-color: #ef4444;
+    color: #7f1d1d;
+}
+
+.esitoOpzioneMinigioco {
+    color: #2e1065;
+}
+
+.messaggioSuccesso {
+    background-color: #dcfce7;
+    color: #14532d;
+    border-color: #86efac;
+}
+
+.messaggioErrore {
+    background-color: #fee2e2;
+    color: #7f1d1d;
+    border-color: #fecaca;
+}
+
+.messaggioAvviso {
+    background-color: #fef3c7;
+    color: #713f12;
+    border-color: #facc15;
+}
+
+.selectGenerePreferito option {
+    background-color: #ffffff;
+    color: #2e1065;
+}
+
+.temaFooter {
+    border-top-color: #c084fc;
+    color: #6b21a8;
+}
+
+.temaFooter span {
+    color: #4c1d95;
+}
+
+.temaFooter a,
+.temaFooter a:visited {
+    color: #7e22ce;
+}
+
+.temaFooter a:hover {
+    color: #be185d;
+}
+
+.schedaGioco:hover {
+    background-color: #ffffff;
+    border-color: #9333ea;
+    box-shadow: 0 0 22px rgba(147, 51, 234, 0.22);
+}
+
+.schedaGioco:hover h3,
+.schedaGioco:hover p,
+.schedaGioco:hover .meta,
+.schedaGioco:hover strong {
+    color: #2e1065;
+}
+
+.schedaGioco:hover a {
+    color: #7e22ce;
+}
+
+.schedaGioco:hover a:hover {
+    color: #be185d;
+}
+
+.liberHeroGlossario {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f0ff 52%, #ede9fe 100%);
+    border-color: #9333ea;
+    box-shadow: 0 0 24px rgba(147, 51, 234, 0.20);
+}
+
+.liberHeroGlossario h2,
+.liberHeroGlossario p,
+.liberHeroGlossario strong {
+    color: #2e1065;
+}
+
+.liberHeroGlossario .formulaSacra,
+.liberHeroGlossario .introSacra,
+.liberHeroGlossario .chiusuraSacra {
+    color: #4c1d95;
+}
+
+.liberHeroGlossario a,
+.liberHeroGlossario a:visited {
+    color: #6b21a8;
+}
+
+.liberHeroGlossario a:hover {
+    color: #be185d;
+}
+
+.sigilloLiber {
+    background: radial-gradient(circle, #4c1d95 0%, #2e1065 75%);
+    color: #ffffff;
+    border-color: #6b21a8;
+    box-shadow: 0 0 20px rgba(76, 29, 149, 0.32);
+}
+
+.card:hover h3,
+.card:hover p,
+.card:hover .meta,
+.card:hover strong {
+    color: #2e1065;
+}
+
+.card:hover a,
+.card:hover a:visited {
+    color: #7e22ce;
+}
+
+.card:hover a:hover {
+    color: #be185d;
+}
+
+.letteraSacra {
+    color: #7e22ce;
+    border-bottom-color: #7e22ce;
+}
+
+.liberHeroGlossario h2:first-letter,
+.titoloSacrale:first-letter {
+    color: #6b21a8;
+    text-shadow: 0 0 8px rgba(126, 34, 206, 0.18);
+}
